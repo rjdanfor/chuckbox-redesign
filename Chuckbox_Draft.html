@@ -4,6 +4,8 @@
 <head>
     <meta charset="utf-8" />
     <title>The Chuckbox</title>
+    <link rel="stylesheet/less" type="text/css" href="styles.less" />
+    <script src="https://cdn.jsdelivr.net/npm/less" ></script>
 </head>
 <body>
     <header>
@@ -22,35 +24,55 @@
     <main>
         <section id="menu">
             <h2>Current Menu</h2>
-            <img src="#" alt="The current Chuckbox menu" />
+            <img src="images/menu.jpg" alt="The current Chuckbox menu" />
         </section>
-        <h3>
+        <section id="info">
+            <h2>Information</h2>
+            <section>
+                <h3>Hours</h3>
+                <p>Monday/Saturday</p>
+                <p>10:30am/10pm</p>
+                <p>Sunday</p>
+                <p>10:30am/9pm</p>
+            </section>
+            <section>
+                <h3>Location</h3>
+                <a href="https://www.google.com/maps/search/202+E.%20University%20Dr.%20,+Tempe,+AZ,+85281+USA">
+                    202 E. University Dr.
+                    Tempe, AZ 85281
+                    USA</a>
+            </section>
+            <section>
+                <h3>Contact</h3>
+            </section>
+        </section>
+        <p>
             Tag us on social media for your chance to have your photo be featured on our page!
             Give us a follow both on Instagram and Facebook.
-        </h3>
+        </p>
     </main>
     <aside>
         <form action="/" method="post">
             <label for="fname">Name (required)</label><br />
-            <input type="text" name="fname" value="" /><br />
+            <input type="text" id="fname" value="" /><br />
 
             <label for="femail">Email (required)</label><br />
-            <input type="type" name="femail" value="" /><br />
+            <input type="type" id="femail" value="" /><br />
 
             <label for="fphone">Phone</label><br />
-            <input type="type" name="fphone" value="" /><br />
+            <input type="type" id="fphone" value="" /><br />
 
             <label for="fdate">Date (YYYY-MM-DD) (required)</label><br />
-            <input type="type" name="fdate" value="" /><br />
+            <input type="type" id="fdate" value="" /><br />
 
             <label for="ftime">Time Of Day</label><br />
-            <input type="type" name="ftime" value="" /><br />
+            <input type="type" id="ftime" value="" /><br />
 
             <label for="fserver">Server's Name</label><br />
-            <input type="type" name="fserver" value="" /><br />
+            <input type="type" id="fserver" value="" /><br />
 
             <label for="fmessage">Message</label><br />
-            <textarea name="fmessage" rows="10" cols="30"/></textarea><br />
+            <textarea id="fmessage" rows="10" cols="30"></textarea><br />
 
             <input type="submit" name="fsubmit" value="Submit" />
         </form>
