@@ -47,11 +47,27 @@ table {
 	border-spacing: 0;
 }
 
-/* global */
+/* -------------------- ROOT VARIABLES -------------------------------------- */
 :root{
     --white: #fff;
     --black: #000;
 
     --fonts:;
     --title-fonts:;
+}
+/* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
+@media screen and (min-width:450px) {
+
+}
+/*-------------------- MEDIA QUERY (medium) ----------------------------------*/
+@media screen and (min-width:620px) {
+
+}
+/*-------------------- MEDIA QUERY (large) -----------------------------------*/
+@media screen and (min-width:950px) {
+
+}
+/*-------------------- MEDIA QUERY (xl) --------------------------------------*/
+@media screen and (min-width:1280px) {
+    
 }
