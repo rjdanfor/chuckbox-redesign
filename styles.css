@@ -51,25 +51,27 @@ table {
 :root{
     --white: #fff;
     --black: #000;
-	--lightblue: lightblue;
-	--lightgreen: lightgreen;
+	--tan: beige;
 
     --fonts:;
     --title-fonts:;
 }
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
 @media screen and (min-width:450px) {
+	h2, h3, p, small, a, label{color: var(--white);}
+	h1, h2, h3{font-family: var(--title-fonts);}
+	p, small, a, label{font-family: var(--fonts);}
 	html{
-		background-color: var(--lightblue);
+		background-image: url(images/background.jpg);
 	}
 	body{
 		width: 75%;
 		margin: 0 auto;
-		background-color: rgba(255, 255, 255, 0.5);
+		background-color: rgba(0, 0, 0, 0.5);
 	}
 	header{
 		grid-area: header;
-		background-color: var(--lightgreen);
+		background-color: var(--tan);
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
@@ -87,11 +89,10 @@ table {
 	#hero img{
 		display: block;
 		margin: 0 auto;
-		height: 100%;
 		width: 100%;
 		filter: brightness(50%);
 	}
-	#hero p {
+	#hero h3 {
 		position: absolute;
 		top: 50%;
 		left: 50%;
