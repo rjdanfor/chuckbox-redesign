@@ -204,9 +204,6 @@ table {
 }
 /*-------------------- MEDIA QUERY (medium) ----------------------------------*/
 @media screen and (min-width:620px) {
-	body{
-		width: 85%;
-	}
 
 }
 /*-------------------- MEDIA QUERY (large) -----------------------------------*/
