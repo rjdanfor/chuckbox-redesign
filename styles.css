@@ -59,7 +59,7 @@ table {
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
 @media screen and (min-width:450px) {
 	h2, h3, p, small, a, label{color: var(--white);}
-	h1, h2, h3{font-family: var(--title-fonts);}
+	h1, h2, h3, #contact_head{font-family: var(--title-fonts);}
 	p, small, a, label{font-family: var(--fonts);}
 	html{
 		background-image: url(images/background.jpg);
@@ -208,6 +208,9 @@ table {
 }
 /*-------------------- MEDIA QUERY (large) -----------------------------------*/
 @media screen and (min-width:950px) {
+	body{
+		width: 80%;
+	}
 
 }
 /*-------------------- MEDIA QUERY (xl) --------------------------------------*/
