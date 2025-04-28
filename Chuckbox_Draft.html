@@ -50,30 +50,31 @@
             </section>    
         </section>
         <section id="contact">
-            <h2 id="contact_head">Contact</h2>
-            <form action="/" method="post">
+            <label for="contact_us" id="contact_head">Contact Us</label>
+            <input type="checkbox" name="contact_check" id="contact_us">
+            <form action="/" method="post" id="contact_form">
                 <label for="fname">Name (required)</label><br />
-                <input type="text" id="fname" value="" /><br />
+                <input type="text" id="fname" value="" class="finput"/><br />
 
                 <label for="femail">Email (required)</label><br />
-                <input type="type" id="femail" value="" /><br />
+                <input type="type" id="femail" value="" class="finput"/><br />
 
                 <label for="fphone">Phone</label><br />
-                <input type="type" id="fphone" value="" /><br />
+                <input type="type" id="fphone" value="" class="finput"/><br />
 
                 <label for="fdate">Date (YYYY-MM-DD) (required)</label><br />
-                <input type="type" id="fdate" value="" /><br />
+                <input type="type" id="fdate" value="" class="finput"/><br />
 
                 <label for="ftime">Time Of Day</label><br />
-                <input type="type" id="ftime" value="" /><br />
+                <input type="type" id="ftime" value="" class="finput"/><br />
 
                 <label for="fserver">Server's Name</label><br />
-                <input type="type" id="fserver" value="" /><br />
+                <input type="type" id="fserver" value="" class="finput"/><br />
 
                 <label for="fmessage">Message</label><br />
-                <textarea id="fmessage" rows="10" cols="30"></textarea><br />
+                <textarea id="fmessage" rows="10" cols="30" class="finput"></textarea><br />
 
-                <input type="submit" name="fsubmit" value="Submit" />
+                <input type="submit" id="fsubmit" value="Submit" />
             </form>
         </section>
         <div id="tag">
